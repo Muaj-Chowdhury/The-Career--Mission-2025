@@ -1,0 +1,137 @@
+/* laptop device */
+@media screen and (max-width:1200px) {
+    #heading-items h2 {
+        font-size: 24px;
+    }
+
+    .btn {
+
+        padding: 10px 15px;
+        font-size: 13px;
+    }
+
+    .story-contant {
+        padding: 50px 50px 120px 0px;
+
+    }
+    #footer-items{
+    gap: 300px;
+
+ }
+
+    
+}
+
+/* tablet device */
+@media screen and (max-width:1024px) {
+    .dwnld-btn {
+        width: 50%;
+    }
+
+    .title {
+        width: 50%;
+        text-align: left;
+    }
+
+    #story-items {
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    .story-image {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .story-contant {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .heading-contant p {
+        margin: 0px 0px;
+    }
+
+    .story-image img {
+        width: 320px;
+        height: auto;
+    }
+
+    .banner-image img {
+        width: 320px;
+        height: auto;
+    }
+
+    #inspiration p {
+        margin: 0px 0px;
+    }
+
+    .youtube-contant {
+        padding: 0px;
+    }
+    .target-card-container{
+    flex-direction: column;
+ }
+ .target-card{
+    
+    text-align: center;
+    width: 100% ;
+    
+ }
+ .target-card img{
+    width: 100px;
+    height: auto;
+ }
+ #footer-items{
+    flex-direction: column;
+    gap: 0px;
+ }
+ .social-id-logos {
+    margin-right: auto;
+
+ }
+
+
+}
+
+/* mobile device */
+@media screen and (max-width:640px) {
+
+    #heading-items h2 {
+
+        font-size: 20px;
+        font-weight: bolder;
+    }
+
+    #heading-items {
+        flex-direction: column;
+        
+    }
+    #header-items-container{
+        width: 100%;
+    }
+
+    .title {
+        width: 100%;
+        text-align: center;
+    }
+
+    .dwnld-btn {
+        width: 100%;
+        text-align: center;
+    }
+    .banner-image{
+        width:100% ;
+    }
+    .banner-image img{
+        width: 200px;
+    }
+    .social-id-logos {
+    margin-right: auto;
+
+ }
+ .footer-contant{
+    margin-left:auto;
+ }
+
+}
