@@ -1,0 +1,233 @@
+  *{
+     font-family: "Plus Jakarta Sans", sans-serif;
+     margin: 0%;
+     padding: 0%;
+     box-sizing : border-box;
+
+ }
+img{
+    width: 100%;
+}
+ body {
+     min-height: 100vh;
+     background-image: linear-gradient(150deg, #E6E6FA, #B8E7FA);
+ }
+
+ .btn {
+     background-image: linear-gradient(#FFA500, #FFD447);
+     border-radius: 10px;
+     padding: 10px 40px;
+     color: black;
+     cursor: pointer;
+     font-weight: bold;
+     font-size: 18px;
+     border: 2px solid #E6E6FA;
+     box-shadow: -1px 2px C6DBFF;
+ }
+#heading-items{
+    display: flex;
+    /* justify-content: space-between; */
+    /* gap: 50%; */
+    background-color: rgb(248, 246, 246);
+    max-width: 100%;
+
+}
+ #heading-items h2{
+    
+    font-size: 28px;
+    font-weight: bolder;
+ }
+
+ .title {
+    
+     text-align: left;
+     background-color: rgb(248, 246, 246);
+     width: 70%;
+     padding: 20px 100px;
+
+
+ }
+
+ .title span {
+     color: #FFA500;
+ }
+ .dwnld-btn{
+    margin: auto ; 
+
+    max-width:30% ;
+    text-align: right;
+
+ }
+ 
+ #banner {
+     width: 87.5%;
+     margin: 100px auto 100px auto;
+     background-color: #E6EDF9;
+     padding: 40px 60px;
+     border-radius: 16px;
+
+ }
+
+ .banner-image {
+     text-align: center;
+     margin-bottom: 32px;
+     width: 450px;
+     margin: auto auto 32px auto;
+ }
+ .banner-image img{
+    width: auto;
+ }
+
+ .banner-contant {
+     text-align: center;
+
+ }
+
+ .banner-contant h1,
+ p {
+     margin-bottom: 30px;
+ }
+
+ #story,#inspiration,#target {
+     width: 87.5%;
+     margin: 0px auto 100px auto;
+     border-radius: 16px;
+ }
+
+ .heading-contant {
+     text-align: center;
+     margin-bottom: 48px;
+     /* padding: 0px 10px; */
+     font-family: "Plus Jakarta Sans", sans-serif;
+
+ }
+
+ .heading-contant h2 {
+     font-weight:ExtraBold ;
+     font-size: 32px;
+     margin-bottom: 24px;
+
+ }
+ .heading-contant p{
+margin: 0px 200px;
+ }
+
+ #story-items {
+     padding: 48px 48px;
+     background-color: #E6EDF9;
+     display: flex;
+     /* gap: 100px; */
+
+
+ }
+
+ .story-contant {
+
+     padding: 100px 200px 120px 0px;
+     max-width: 60%;
+     height: 300px;
+     /* margin: 120px 0px; */
+     text-align: left;
+
+     /* background-color: aqua; */
+ }
+
+ .story-contant h3 {
+     font-weight: bold;
+     font-size: 24px;
+     color: #0D132190;
+     margin-bottom: 16px;
+ }
+ 
+
+ .story-contant p {
+     margin-bottom: 32px;
+ }
+
+ .story-image {
+     max-width: 40%;
+     /* background-color: #FFD447; */
+ }
+
+ .story-image img {
+     max-width: 100%;
+ }
+
+ .youtube-contant {
+     text-align: center;
+     padding: 32px ;
+     max-width: 100%;
+     /* background-color: #FFD447; */
+ }
+ .youtube-contant iframe{
+    border-radius: 16px;
+ }
+ #inspiration{
+    max-width: 70%;
+ }
+ 
+ #inspiration p{
+    margin: 0px 150px;
+ }
+ .target-card-container{
+    display: flex;
+    justify-content: space-between;
+    /* gap: auto; */
+    /* background-color: #FFD447; */
+ }
+ .target-card{
+    background: linear-gradient( #E6EDF9,#9DE5FF);
+    padding: 40px;
+    border-radius: 16px;
+    text-align: left;
+    width: 27% ;
+    box-shadow: 1px 2px 80px #aca4a4;
+    margin-bottom: 100px;
+ }
+ .target-card *{
+    margin-bottom: 24px;
+ }
+ .target-card a {
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+ }
+ #footer-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 600px;
+
+    padding: 0px 100px;
+ }
+ .footer-contant * {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
+#footer-items-container{
+    background-color: #E6EDF9;
+}
+.footer-contant{
+    padding: 30px 0px 0px 0px;
+    
+    text-align: left;
+    /* background-color: aqua; */
+}
+.social-id-logos {
+   display: flex;
+   /* background-color: #FFD447; */
+   margin: 25px 0px 25px 0px;
+   
+   gap: 30%;
+   text-align: right;
+   margin: auto;
+   
+}
+.target-card img{
+    height: 56px;
+    width: 56px;
+}
+
+ 
